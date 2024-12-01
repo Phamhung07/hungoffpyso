@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Offpyso</title>
+</head>
+<body>
+    <h1>Tôi là HUNG_OFFPYSO</h1>
+    <p>Chà, bạn đã đặt chân đến trang web của tôi!</p>
+    <p>Hôm nay là {{ date_time }}</p>
+    <form action="/send_info" method="post">
+        <p>Gửi thông tin điện thoại cho Offpyso?</p>
+        <button type="submit" name="response" value="agree">Đồng ý</button>
+        <button type="submit" name="response" value="disagree">Không đồng ý</button>
+    </form>
+</body>
+</html>
